@@ -12,7 +12,6 @@ from discord.commands import slash_command
 from discord.ext import commands
 
 # 부가 임포트
-from config import SLASH_COMMAND_REGISTER_SERVER as SCRS
 from classes.user import User
 from utils import logger
 

@@ -18,7 +18,6 @@ from discord.ui import View
 from classes.fish import Fish
 from classes.room import Room
 from classes.user import User
-from config import SLASH_COMMAND_REGISTER_SERVER as SCRS
 from constants import Constants
 from utils import logger
 from utils import on_working

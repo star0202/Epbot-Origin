@@ -1,16 +1,11 @@
 # 필수 임포트
-import json
 import os
 
 import discord
-from discord.commands import Option
 from discord.ext import commands
-
-from classes.room import Room
 
 # 부가 임포트
 from cogs.fishing import theme_group as _theme_group
-from config import SLASH_COMMAND_REGISTER_SERVER as SCRS
 from classes.user import User
 from constants import Constants
 from utils import logger

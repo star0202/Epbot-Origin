@@ -26,7 +26,6 @@ from classes.facility import Facility, NotExistFacility, UNITDATA
 from classes.fish import Fish
 from constants import Constants
 from db.seta_pgsql import S_PgSQL
-from db.seta_sqlite import S_SQLite
 from utils import logger
 
 db = S_PgSQL()

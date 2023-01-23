@@ -2,7 +2,7 @@ import discord
 from discord import Thread, DMChannel
 from discord.ext.commands import check
 
-from classes.room import Room, get_working_now
+from classes.room import Room
 from classes.user import User, on_fishing
 
 

@@ -6,13 +6,9 @@
 - Fish는 Fish의 복수형입니다.
 """
 
-import json
 import random
 from datetime import datetime
 
-import jwt
-
-import config
 from constants import Constants
 from db.seta_pgsql import S_PgSQL
 

@@ -1,12 +1,8 @@
-import asyncio
-import concurrent.futures
 from datetime import datetime
-from functools import partial
 import io
 import os
 
 from PIL import Image, ImageDraw, ImageFont
-import discord
 from utils import logger
 
 from utils.seta_josa import Josa

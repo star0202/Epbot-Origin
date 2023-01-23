@@ -19,7 +19,6 @@ from utils import logger
 from classes.user import User
 from classes.room import Room
 from utils.on_working import on_working
-from config import SLASH_COMMAND_REGISTER_SERVER as SCRS
 
 
 class LandCog(commands.Cog):
